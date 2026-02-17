@@ -1,0 +1,9 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px; /* prevents overflow on mobile */
+  background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%); /* optional gradient */
+  font-family: 'Arial', sans-serif;
+}

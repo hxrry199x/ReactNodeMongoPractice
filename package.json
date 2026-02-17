@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "name": "day1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+  "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
